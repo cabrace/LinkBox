@@ -9,13 +9,31 @@ import { AppShell } from '@skeletonlabs/skeleton';
 
 
 <AppShell>
-	<svelte:fragment slot="header">Header</svelte:fragment>
-	<svelte:fragment slot="sidebarLeft">Sidebar Left</svelte:fragment>
-	<svelte:fragment slot="sidebarRight">Sidebar Right</svelte:fragment>
-	<svelte:fragment slot="pageHeader">Page Header</svelte:fragment>
+  <!--
+  <svelte:fragment slot="header">
+    <div class="grid h-screen place-items-center">Header</div>
+  </svelte:fragment>
+
+  <svelte:fragment slot="sidebarLeft">
+    <div class="grid h-screen place-items-center">Sidebar Left</div>
+  </svelte:fragment>
+
+  <svelte:fragment slot="sidebarRight">
+    <div class="grid h-screen place-items-center">Sidebar Right</div>
+  </svelte:fragment>
+  <svelte:fragment slot="pageHeader">
+    <div class="grid h-screen place-items-center">Page Header</div>
+  </svelte:fragment>
+  -->
 	<!-- Router Slot -->
 	<slot />
 	<!-- ---- / ---- -->
-	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
-	<svelte:fragment slot="footer">Footer</svelte:fragment>
+  <!--
+  <svelte:fragment slot="pageFooter">
+    <div class="grid h-screen place-items-center">Page Footer</div>
+  </svelte:fragment>
+  <svelte:fragment slot="footer">
+    <div class="grid h-screen place-items-center">Footer</div>
+  </svelte:fragment>
+  -->
 </AppShell>
